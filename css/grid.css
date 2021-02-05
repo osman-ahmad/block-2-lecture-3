@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-column-gap: 5px;
+    grid-row-gap: 3px;
+}
+
+
+.wrapper div {
+   background-color: blue;
+}
+
+#five {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: auto;
+}
